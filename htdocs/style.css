@@ -26,13 +26,15 @@ header{
 }
 
 header * {
-    flex: none;
+    flex: 1;
 }
 
 #profile_photo {
     border-radius: 50%;
     height: 80%;
+    object-fit: contain;
     margin: auto 20px;
+    flex: 0;
 }
 
 #title {
@@ -41,10 +43,19 @@ header * {
 
 #links {
     height: 80%;
+    max-width: 40%;
+    margin: auto 20px;
+    
     align-self: flex-end;
     
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+#links a {
+    scale: 2;
+    color: whitesmoke;
+    margin: auto 20px;
 }
