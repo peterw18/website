@@ -86,7 +86,7 @@ header * {
 /* ChatGPT generated */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18vw, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
   }
