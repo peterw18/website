@@ -161,6 +161,10 @@ a {
   }
 }
 
+#menu-btn{
+  display: none;
+}
+
 #laminate-menu {
   display: none;
   z-index: 100;
