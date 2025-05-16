@@ -186,10 +186,11 @@ a {
   font-family: Raleway, Aptos, sans-serif;
   color: whitesmoke;
   font-size: 2rem;
+  cursor: pointer;
 }
 
 #laminate-menu a {
-  padding: 0.5vh 50px;
+  padding: 5vh;
   width: 100vw;
   text-decoration: none;
   font-family: Figtree, Aptos, sans-serif;
