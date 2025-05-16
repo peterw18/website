@@ -181,11 +181,12 @@ a {
 }
 
 #exit{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: sans-serif;
 }
 
 #laminate-menu a {
-  padding: 20px 50px;
+  padding: 0.5vh 50px;
+  width: 100vw;
   text-decoration: none;
   font-family: Figtree, Aptos, sans-serif;
   font-size: 2rem;
