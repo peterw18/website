@@ -49,3 +49,11 @@ fetch(`https://api.github.com/users/${username}/repos`)
     });
 
 loadMoreBtn.addEventListener("click", renderRepos);
+
+document.getElementById("menu-btn").addEventListener("click", function(){
+    document.getElementById("laminate-menu").style.display = 'block';
+});
+
+document.getElementById("exit").addEventListener("click", function(){
+    document.getElementById("laminate-menu").style.display = 'none';
+});
