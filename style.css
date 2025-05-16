@@ -156,7 +156,6 @@ a {
 #titlecard{
   display: flex;
   flex-direction: column;
-  flex: 0;
 }
 
 #titlecard p {
