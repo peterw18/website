@@ -11,6 +11,7 @@ function renderRepos() {
     nextRepos.forEach(repo => {
     const card = document.createElement("a");
     card.className = "card";
+    card.className = "alt-bg";
     card.href = repo.html_url;
     card.target = "_blank";
 

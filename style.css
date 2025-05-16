@@ -91,7 +91,6 @@ header * {
     margin-top: 2rem;
   }
   .card {
-    background: #414040;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     overflow: hidden;
@@ -141,4 +140,8 @@ header * {
 #titlecard{
   display: flex;
   flex-direction: column;
+}
+
+#titlecard p {
+  font-size: .8rem;
 }
