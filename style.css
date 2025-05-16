@@ -86,7 +86,7 @@ header * {
 /* ChatGPT generated */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(18vw, 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
   }
@@ -98,7 +98,7 @@ header * {
     transition: transform 0.2s ease;
     text-decoration: none;
     color: inherit;
-    width: 18vw;
+    min-width: 300px;
   }
   .card:hover {
     transform: translateY(-5px);
@@ -148,6 +148,7 @@ footer {
 
   padding: 20px 30px;
 
+  color: whitesmoke;
   background-color: #212121;
   font-family: Raleway, Aptos, sans-serif;
 }
