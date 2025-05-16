@@ -143,6 +143,11 @@ a {
   }
 /********************/
 
+#menu-btn{
+  display: none;
+  scale: 2;
+}
+
 @media (max-width: 599px) {
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(358px, 1fr));
@@ -159,10 +164,6 @@ a {
   #menu-btn{
     display: block;
   }
-}
-
-#menu-btn{
-  display: none;
 }
 
 #laminate-menu {
