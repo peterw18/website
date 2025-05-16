@@ -181,10 +181,11 @@ a {
 }
 
 #exit{
-  font-family: sans-serif;
+  font-family: Raleway, Aptos, sans-serif;
 }
 
 #laminate-menu a {
+  margin: 2vh;
   padding: 0.5vh 50px;
   width: 100vw;
   text-decoration: none;
