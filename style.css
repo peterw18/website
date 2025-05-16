@@ -4,6 +4,7 @@
 body, html{
     margin: 0;
     background-color: #363636;
+    overflow-x: hidden;
 }
 
 header{
@@ -147,5 +148,6 @@ footer {
 
   padding: 20px 30px;
 
-  font-family: Figtree, Aptos, sans-serif;
+  background-color: #212121;
+  font-family: Raleway, Aptos, sans-serif;
 }
