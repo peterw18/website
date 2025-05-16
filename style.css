@@ -144,7 +144,7 @@ a {
 /********************/
 
 #menu-btn{
-  display: none;
+  visibility: hidden;
   scale: 2;
 }
 
@@ -158,11 +158,11 @@ a {
   }
 
   #links a {
-    display: none;
+    visibility: hidden;
   }
 
   #menu-btn{
-    display: block;
+    visibility: visible;
   }
 }
 
