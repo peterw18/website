@@ -183,6 +183,8 @@ a {
 #laminate-menu a {
   padding: 10px;
   scale: 2;
+  text-decoration: none;
+  font-family: Figtree, Aptos, sans-serif;
 }
 
 #titlecard{
