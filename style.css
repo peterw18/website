@@ -144,7 +144,7 @@ a {
 /********************/
 
 #menu-btn{
-  visibility: hidden;
+  display: none;
   scale: 2;
 }
 
@@ -158,11 +158,11 @@ a {
   }
 
   #links a {
-    visibility: hidden;
+    display: none;
   }
 
   #menu-btn{
-    visibility: visible;
+    display: block;
   }
 }
 
@@ -178,6 +178,11 @@ a {
   bottom: 0;
   right: 0;
   overflow: hidden;
+}
+
+#laminate-menu a {
+  padding: 10px;
+  scale: 2;
 }
 
 #titlecard{
