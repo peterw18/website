@@ -32,6 +32,11 @@ header * {
     flex: 1;
 }
 
+header a {
+  text-decoration: none;
+  align-self: flex-start;
+}
+
 #profile_photo {
     border-radius: 50%;
     height: 80%;
