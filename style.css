@@ -157,7 +157,7 @@ a {
     display: none;
   }
 
-  #links a {
+  .no-mob {
     display: none;
   }
 
