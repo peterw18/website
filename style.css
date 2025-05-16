@@ -98,7 +98,6 @@ header * {
     transition: transform 0.2s ease;
     text-decoration: none;
     color: inherit;
-    min-width: 300px;
   }
   .card:hover {
     transform: translateY(-5px);
