@@ -150,7 +150,7 @@ a {
 
 @media (max-width: 599px) {
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(358px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   }
 
   #titlecard p {
@@ -158,7 +158,7 @@ a {
   }
 
   .no-mob {
-    display: none;
+    display: none !important;
   }
 
   #menu-btn{
