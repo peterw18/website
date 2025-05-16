@@ -32,13 +32,6 @@ header * {
     flex: 1;
 }
 
-header a {
-  text-decoration: none;
-  align-self: flex-start;
-  scale: 2;
-  flex: 0;
-}
-
 #profile_photo {
     border-radius: 50%;
     height: 80%;
@@ -163,6 +156,7 @@ a {
 #titlecard{
   display: flex;
   flex-direction: column;
+  flex: 0;
 }
 
 #titlecard p {
