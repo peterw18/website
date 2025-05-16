@@ -45,7 +45,7 @@ header * {
     height: 80%;
     max-width: 40%;
     margin: auto 20px;
-    
+
     align-self: flex-end;
     
     display: flex;
@@ -58,4 +58,7 @@ header * {
     scale: 2;
     color: whitesmoke;
     margin: auto 20px;
+    text-decoration: none;
+    cursor: pointer;
+    flex: 0;
 }
