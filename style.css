@@ -190,7 +190,7 @@ a {
 }
 
 #laminate-menu a {
-  padding: 5vh;
+  margin: 2vh;
   width: 100vw;
   text-decoration: none;
   font-family: Figtree, Aptos, sans-serif;
