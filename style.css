@@ -35,6 +35,8 @@ header * {
 header a {
   text-decoration: none;
   align-self: flex-start;
+  scale: 2;
+  flex: 0;
 }
 
 #profile_photo {
