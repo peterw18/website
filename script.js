@@ -1,14 +1,9 @@
 let allRepos = [];
-let reposPerPage = 3;
-let displayIndex = 0;
 const grid = document.getElementById("repo-grid");
-const loadMoreBtn = document.getElementById("load-more");
 let username = "peterw18";
 
-
 function renderRepos() {
-    const nextRepos = allRepos.slice(displayIndex, displayIndex + reposPerPage);
-    nextRepos.forEach(repo => {
+    allRepos.forEach(repo => {
     const card = document.createElement("a");
     card.className = "card";
     card.href = repo.html_url;
@@ -29,12 +24,6 @@ function renderRepos() {
     `;
     grid.appendChild(card);
     });
-
-    displayIndex += reposPerPage;
-
-    if (displayIndex >= allRepos.length) {
-    loadMoreBtn.style.display = "none";
-    }
 }
 
 fetch(`https://api.github.com/users/${username}/repos`)
@@ -47,5 +36,3 @@ fetch(`https://api.github.com/users/${username}/repos`)
     grid.innerHTML = "<p>Error loading repositories.</p>";
     console.error(err);
     });
-
-loadMoreBtn.addEventListener("click", renderRepos);
