@@ -91,6 +91,7 @@ header * {
     margin-top: 2rem;
   }
   .card {
+    background-color: #414040;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     overflow: hidden;
@@ -144,4 +145,8 @@ header * {
 
 #titlecard p {
   font-size: .8rem;
+}
+
+.alt-card {
+  background-color: #363636;
 }
