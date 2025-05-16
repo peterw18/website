@@ -70,6 +70,10 @@ header * {
     margin-top: max(10vh, 120px);;
 }
 
+a {
+  color: #bebebe;
+}
+
 .alt-bg, .bg {
     color: whitesmoke;
     font-family: Figtree, Aptos, sans-serif;
